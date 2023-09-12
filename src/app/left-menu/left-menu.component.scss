@@ -1,0 +1,50 @@
+.left-menu {
+    background-color: #273143;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .left-menu ul {
+    list-style-type: none;
+    padding: 0;
+    flex: 1; /* Make the ul occupy the remaining height */
+  }
+  
+  .left-menu li {
+    // margin-bottom: 5px;
+    // padding: 10px;
+    // margin: 10px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .left-menu li:hover {
+    background-color: #ddd; /* Highlight the menu item on hover */
+  }
+
+  .active {
+    background-color: #ddd; /* Highlight the menu item on hover */
+    font-weight: bold;
+    color: black;
+  }
+  
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #43516a;
+    // border-radius: 5px;
+    color: #ddd;
+    font-weight: bold;
+  }
+
+  li:hover {
+      color: black !important;
+  }

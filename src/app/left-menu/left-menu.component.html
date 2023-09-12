@@ -1,0 +1,6 @@
+<nav class="left-menu">
+    <ul>
+      <li *ngFor="let menu of menuList" [class.active]="currentUrl.includes(menu?.key ?? '')" (click)="navigateTo(menu?.key ?? '')" [tooltip]="menu.details" placement="right" delay="0" type="black" [tooltipMandatory]="true">{{menu?.title}}</li>
+    </ul>
+  </nav>
+  

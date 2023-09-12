@@ -1,0 +1,18 @@
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .bottom-nav .social-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  app-icon-component {
+    width: 25px;
+    margin-right: 10px;
+  }

@@ -4,9 +4,8 @@
     <h2>Sports List</h2>
     <ul class="sport-items">
       <li class="sport-item" *ngFor="let sport of sports">
-        <a [routerLink]="['/sports', sport.id]">
+        <a (click)="openSportDialog(sport)">
           <div class="sport-icon">
-            <!-- You can use sport-specific icons or images here -->
             <img src="./../../assets/images/{{sport.name | lowercase }}.png" alt="{{ sport.name }}" />
           </div>
           <div class="sport-details">
@@ -17,4 +16,6 @@
       </li>
     </ul>
   </div>
+
+  <app-sport-dialog *ngIf="dialogService.isDialogOpened()" [sport]="selectedSport"></app-sport-dialog>
   

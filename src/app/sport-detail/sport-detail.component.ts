@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SportsService } from '../services/sports.service';
 import { Sport } from '../models/sport.model';
+import { SportDialogService } from '../services/sport-dialog.service';
 
 @Component({
   selector: 'app-sport-detail',
@@ -14,8 +15,11 @@ export class SportDetailComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private sportsService: SportsService
-  ) {}
+    private sportsService: SportsService,
+    private dialogService: SportDialogService
+  ) {
+    this.dialogService.closeDialog();
+  }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {

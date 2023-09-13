@@ -1,0 +1,12 @@
+.img-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* This ensures the container takes up the full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    max-height: 100%; /* Make sure the image doesn't exceed its container's height */
+  }

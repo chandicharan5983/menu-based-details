@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { DetailsPageComponent } from './details-page/details-page.component';
 import { SportsListComponent } from './sports-list/sports-list.component';
 import { SportDetailComponent } from './sport-detail/sport-detail.component';
+import { EducationComponent } from './education/education.component';
 
 const routes: Routes = [
   { path: '', component: SportsListComponent },
   { path: 'details', component: DetailsPageComponent },
   { path: 'sports', component: SportsListComponent },
+  { path: 'education', component: EducationComponent },
   { path: 'sports/:id', component: SportDetailComponent },
 
   // Add more routes as needed

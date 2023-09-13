@@ -12,6 +12,8 @@ import { TooltipModule } from './ui-elements/tooltip/tooltip.module';
 import { IconComponentComponent } from './footer/icon-component/icon-component.component';
 import { SportsListComponent } from './sports-list/sports-list.component';
 import { SportDetailComponent } from './sport-detail/sport-detail.component';
+import { SportDialogComponent } from './sport-dialog/sport-dialog.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SportDetailComponent } from './sport-detail/sport-detail.component';
     LayoutComponent,
     IconComponentComponent,
     SportsListComponent,
-    SportDetailComponent
+    SportDetailComponent,
+    SportDialogComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

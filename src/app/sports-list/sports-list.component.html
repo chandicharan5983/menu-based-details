@@ -1,0 +1,20 @@
+<!-- sports-list.component.html -->
+
+<div class="sports-list">
+    <h2>Sports List</h2>
+    <ul class="sport-items">
+      <li class="sport-item" *ngFor="let sport of sports">
+        <a [routerLink]="['/sports', sport.id]">
+          <div class="sport-icon">
+            <!-- You can use sport-specific icons or images here -->
+            <img src="./../../assets/images/{{sport.name | lowercase }}.png" alt="{{ sport.name }}" />
+          </div>
+          <div class="sport-details">
+            <h3>{{ sport.name }}</h3>
+            <p  [tooltip]="sport.description" placement="right" delay="0" type="black" [tooltipMandatory]="true">{{ sport.description }}</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  

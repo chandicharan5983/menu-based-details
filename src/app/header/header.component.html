@@ -1,9 +1,9 @@
 <div class="header-left">
-    <a routerLink="/main-screen">
+    <a routerLink="">
       <!-- Add the 'max-width' style to the image -->
       <img src="./../../assets/images/ltgrouplogo.jpg" alt="Company Logo" style="max-width: 100%; height: auto;" />
     </a>
   </div>
-  <div class="header-right">
-    <i class="fa fa-user"></i> <!-- Replace with your user icon -->
+  <div class="header-right user-icon" [tooltip]="userDetails.name" placement="left" delay="0" type="black" [tooltipMandatory]="true">
+    <img src="./assets/images/user_icon.jpg" alt="User Icon">
   </div>

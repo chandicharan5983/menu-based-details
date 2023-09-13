@@ -10,6 +10,8 @@ import { DetailsPageComponent } from './details-page/details-page.component';
 import { LayoutComponent } from './layout/layout.component';
 import { TooltipModule } from './ui-elements/tooltip/tooltip.module';
 import { IconComponentComponent } from './footer/icon-component/icon-component.component';
+import { SportsListComponent } from './sports-list/sports-list.component';
+import { SportDetailComponent } from './sport-detail/sport-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { IconComponentComponent } from './footer/icon-component/icon-component.c
     LeftMenuComponent,
     DetailsPageComponent,
     LayoutComponent,
-    IconComponentComponent
+    IconComponentComponent,
+    SportsListComponent,
+    SportDetailComponent
   ],
   imports: [
     BrowserModule,

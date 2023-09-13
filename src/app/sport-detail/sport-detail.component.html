@@ -1,0 +1,26 @@
+<!-- <div class="sport-detail">
+    <h2>{{ sport?.name }}</h2>
+    <div class="sport-info">
+      <div class="sport-icon">
+        <img src="./../../assets/images/{{sport?.name | lowercase }}.png" alt="{{ sport?.name }}" />
+      </div>
+      <div class="sport-details">
+        <h3>{{ sport?.name }}</h3>
+        <p>{{ sport?.description }}</p>
+      </div>
+    </div>
+    <a routerLink="/sports">Back to Sports List</a>
+  </div>
+   -->
+
+<!-- sport-detail.component.html -->
+
+<div class="sport-detail">
+    <h2>{{ sport?.name }} Details</h2>
+    <div class="sport-details">
+      <!-- <h3>{{ sport?.name }}</h3> -->
+      <p>{{ sport?.description }}</p>
+    </div>
+    <a routerLink="/sports" >Back to Sports List</a>
+  </div>
+  

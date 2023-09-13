@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { USER_Details } from '../constants/menu-list.constant';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  userDetails = USER_Details
 
 }

@@ -1,0 +1,76 @@
+// /* sport-detail.component.scss */
+
+// .sport-detail {
+//   padding: 20px;
+
+//   h2 {
+//     font-size: 24px;
+//     margin-bottom: 20px;
+//   }
+
+//   .sport-info {
+//     display: flex;
+//     align-items: center;
+
+//     .sport-icon {
+//       width: 100px;
+//       height: 100px;
+//       margin-right: 20px;
+
+//       img {
+//         max-width: 100%;
+//         max-height: 100%;
+//       }
+//     }
+
+//     .sport-details {
+//       h3 {
+//         font-size: 20px;
+//         margin: 0;
+//       }
+
+//       p {
+//         font-size: 14px;
+//         margin: 5px 0;
+//       }
+//     }
+//   }
+
+//   a {
+//     display: block;
+//     margin-top: 20px;
+//     color: #007bff;
+//   }
+// }
+
+
+/* sport-detail.component.scss */
+
+.sport-detail {
+    padding: 20px;
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .sport-details {
+      h3 {
+        font-size: 20px;
+        margin: 0;
+      }
+  
+      p {
+        font-size: 14px;
+        margin: 5px 0;
+      }
+    }
+  
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #007bff;
+    }
+  }
+  
+  

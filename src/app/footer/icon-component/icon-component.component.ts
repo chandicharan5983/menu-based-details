@@ -9,6 +9,7 @@ export class IconComponentComponent implements OnInit {
 
   @Input() url!: string;
   @Input() icon!: string;
+  @Input() iconName!: string;
 
   constructor() {}
 
